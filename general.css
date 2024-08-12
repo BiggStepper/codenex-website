@@ -1,0 +1,317 @@
+/************ CSS for Website's Body ************/
+
+body{
+  font-family: Roboto,Arial;
+  margin: 0px;
+  padding-top: 50px;
+}
+
+/*********** CSS for Website Color Theme **************/
+body {
+  background-color: white;
+  color: black;
+  transition: 1s; 
+}
+
+.dark-mode {
+  background-color: rgb(32, 33, 36);
+  color: white;
+  transition: 1s; 
+}
+
+
+.course-section{
+  
+  padding-bottom: 200px;
+  font-size: 18px;
+  margin: 70px 60px 0px 60px;
+}
+
+/*********** CSS for the Files and Documents **********/
+
+.files-buttons{
+  cursor: pointer;
+  background-color: white;
+  border: 0px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.files-buttons:hover{
+  background-color: rgb(230, 213, 213);
+  transition: 1s;
+}
+
+.files-buttons:active{
+  background-color: lightskyblue;
+  transition: 0.5s;
+}
+
+/************** CSS for the Websites Buttons *****/
+
+.websites-link-button{
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
+  height: 150px;
+  width: 300px;
+  border-style: solid;
+  border-color: rgb(240, 227, 227); 
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 2px 2px rgb(92, 68, 68);
+}
+
+.websites-link-button:hover {
+/*  box-shadow: 3px 3px 7px 7px rgb(219, 195, 195); */
+  box-shadow: 3px 3px 7px 7px rgb(92, 68, 68);
+  transition: 0.25s;
+}
+
+/** CSS for General Links **/
+
+a{
+  color: rgb(85, 178, 209);
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(63, 63, 231);
+}
+a:active{
+  color: gray;
+}
+
+.youtube-videos{
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
+
+}
+
+/******************************* CSS for HTML and CSS ************************************/
+
+.html-scc-topic{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(43, 179, 224);
+}
+
+
+@media (max-width: 700px) {
+  h1{
+    font-size: 1em;
+  }
+}
+
+
+.html-strong{
+  color: brown;
+}
+.css-topic{
+  color: blue;
+}
+
+.html-css-image{
+  height: 200px;
+}
+
+/*********************************** CSS for JAVA Page***********************************************/
+
+.java-topic{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(43, 179, 224); 
+}
+
+.java-strong{
+  color: rgb(218, 76, 76);
+}
+
+.java-image{
+  height: 200px;
+}
+
+
+/******************************************** CSS for Python Page ******************************************/
+
+.python-topic{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(43, 179, 224); 
+}
+
+.python-strong{
+  color: rgb(177, 177, 40);
+}
+
+.python-image{
+  height: 200px;
+}
+
+
+/*********************************** CSS for DataBase and SQL Page *******************************/
+
+.database-topic{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(43, 179, 224); 
+}
+
+.database-strong{
+  color: black;
+}
+
+.database-image{
+  height: 200px;
+}
+
+.sql-photos {
+  cursor: pointer;
+  height: 300px;
+  margin: 0px 20px 10px 10px;
+}
+
+.sql-photos:hover {
+  height: 700px;
+}
+
+
+
+/********************************************* CSS for Introduction To Programming Page*************************************************/
+
+
+
+.intro-to-programming-topic{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(43, 179, 224); 
+}
+
+.intro-to-programming-strong{
+  color: rgb(14, 182, 37);
+}
+
+.intro-to-programming-image{
+  height: 200px;
+}
+
+
+/******************************** CSS for Programming With C++ Page***************************************/
+
+.cplusplus-topic{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(43, 179, 224); 
+}
+
+.cplusplus-strong{
+  color:blue;
+}
+
+.cplusplus-image{
+  height: 200px;
+}
+
+.cpp-code-wrapper{
+  color: white; 
+  background-color: black; 
+  padding: 20px; 
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+
+.strong-pink{
+  color: rgb(211, 43, 99)
+}
+.strong-red{
+  color: rgb(163, 26, 26);
+}
+.strong-green{
+  color: rgb(4,170,109);
+}
+.strong-blue{
+  color: rgb(88, 88, 190);
+}
+.strong-orange{
+  color: orange;
+}
+.cpp-code-comment{
+  color: grey;
+}
+
+
+/******************************** CSS for  JavaScript Programming Page***************************************/
+
+.javascript-topic{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(43, 179, 224); 
+}
+
+.javascript-strong{
+  color: rgb(207, 180, 25);
+}
+
+.javascript-image{
+  height: 200px;
+}
+
+.jsphoto { 
+  cursor: pointer;
+  height: 200px;
+  margin: 0px 10px 10px 10px;
+}
+
+.jsphoto:hover {
+  height: 400px;
+}
+
+
+/************************ CSS For HTML and CSS Page**************************/
+
+.semantic-tag,
+.html-tag2,
+.html-tag3{
+  cursor: pointer;
+  height: 300px;
+  margin: 0px 10px 10px 10px;
+}
+.semantic-tag:hover{
+  height: 1000px;
+}
+
+
+.html-attributes-image{
+  cursor: pointer;
+  height: 200px;
+  margin: 0px 10px 10px 10px;
+}
+
+.html-attributes-image:hover{
+  height: 300px;
+}
+
+.css-image{
+  height: 300px;
+  margin: 10px 10px 10px 10px;
+}
+.css-image:hover{
+  cursor: pointer;
+  height: 450px;
+}
+
+
+
+
+
+
+footer{
+  text-align: center; 
+  color: gray; 
+  font-size: 15px;
+}

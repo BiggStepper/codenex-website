@@ -1,0 +1,468 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                       <!--  JavaScript for Theme Button -->
+
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+
+                    <!--------------------- CSS Files ------------------------------>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="general.css">
+  
+  <title>HTML and CSS</title>
+</head>
+<body>
+
+       <!--------------------- Website Header ------------------------->
+       
+                           <!---        Website Logo                 -->
+
+    <div class="header">
+      <div class="left-section">
+        <img class="codenex-logo" src="images/website-logo.png" alt="website logo">
+        <p class="codenex-logo-name">CodeNex</p> 
+      </div>
+        
+        <div class="middle-section">
+          <form class="search-form" action="">
+            <input class="search-bar" type="text" placeholder="Search" required>
+            <button class="search-icon-button" type="submit">
+              <img style="height: 15px;" src="images/search-icon.png" alt="">
+              <div class="tooltip">Search</div>
+            </button>
+          </form>            
+        </div>
+          
+      
+      <div class="right-section"> 
+        <div>
+          <button class="dark-white-mode-button" onclick="myFunction()">
+            <img style="height: 40px;" src="images/dark_white_mode_icon.png" alt="">
+            <div class="tooltip">Theme</div>
+          </button>
+        </div>
+        
+        <div class="dropdown">
+          <button class="menu-button"><img style="height: 40px;" src="images/menu-icon.png" alt=""></button>
+          <div class="dropdown-content">
+            <a href="introductiobtoprogramming.html">
+              Introduction To Programming
+            </a>
+            <a href="cplusplus.html">
+                C++
+            </a>
+            <a href="java.html">
+              Java
+            </a>
+            <a href="python.html">
+              Python
+            </a>
+            <a href="database.html">
+              Database And SQL
+            </a>
+            <a href="html-css.html">
+              HTML And CSS
+            </a>
+            <a href="javascript.html">
+              JavaScript
+            </a>
+          </div>
+        </div> 
+
+        <div>
+        <a href="index.html">
+          <button class="home-icon-button">
+            <img style="height: 30px;"  src="images/Home-icon.png" alt="">
+            <div class="tooltip">Home</div>
+          </button>
+        </a>
+        </div>      
+      </div>
+      </div>
+       
+
+             <!---------------------- Website Content----------------------->
+
+  <section class="course-section">
+    <section>
+      <div class="html-scc-topic">
+        <img class="html-css-image" src="images/html-css-logo.png" alt="">
+        <h1><strong class="html-strong"> HTML</strong> and <strong class="css-topic">CSS</strong></h1>
+      </div>
+      <div>
+        <p>
+          HTML (<strong class="html-strong">Hypertext Markup Language</strong>) and CSS (<strong style="color: blue;">Cascading Style Sheets</strong>) are the fundamental building blocks of web development. HTML provides the structure and content of a webpage, while CSS is used to style and present the HTML content.
+        </p>
+     <div>
+            Let's start with <strong class="html-strong">HTML</strong>. 
+        <p>
+          HTML (<strong style="color: brown">Hypertext Markup Language</strong>) is the standard markup language used to create webpages. It provides the structure and content of a webpage, allowing you to define the different elements and their relationships.
+          </p>
+
+          <p>
+          HTML documents are composed of HTML tags, which are enclosed in angle brackets. Tags are used to mark up the different parts of a webpage. Let's explore some commonly used HTML tags:
+        </p>
+
+        <p>
+          <ol type="1">
+            <li>
+              <b>!DOCTYPE html:</b> This declaration is placed at the very beginning of an HTML document and specifies the version of HTML being used. In modern web development, <!DOCTYPE html> is used to indicate the HTML5 doctype.
+            </li>
+            <li>
+              <b>html:</b> The <b>html</b>  tag serves as the root element of an HTML document. All other elements will be contained within this tag.
+            </li>
+            <li>
+             <b>head:</b> The <b>head</b> tag contains meta-information about the HTML document, such as the document title, character encoding, linked stylesheets, and scripts. It is not displayed directly on the webpage.
+            </li>
+            <li>
+             <b>title:</b> The <b>title</b> tag is placed within the title tag and sets the title of the webpage, which appears in the browser's title bar or tab.
+            </li>
+            <li>
+              <b>body:</b> The <b>body</b> tag contains the visible content of the webpage. Everything that you want to be displayed on the webpage should be placed within the opening  and closing body tags.
+            </li>
+            <li>
+              <b>h1</b> to <b>h6:</b> These tags represent headings of different levels. <b>h1</b> is the highest level (typically used for page titles), and <b>h6</b> is the lowest level.
+            </li>
+            <li>
+              <b>p:</b> The <b>p</b> tag defines a paragraph of text. It is commonly used for blocks of text on a webpage.
+            </li>
+            <li>
+              <b>a:</b> The <b>a</b> tag is used to create hyperlinks. It requires an href attribute that specifies the destination URL.
+            </li>
+            <li>
+              <b>img:</b> The <b>img</b> tag is used to display images on a webpage. It requires a src attribute that specifies the image file location and an alt attribute that provides alternative text for accessibility.
+            </li>
+            <li>
+              <b>ul</b> and <b>li:</b> These tags are used to create unordered lists. The <b>ul</b> tag defines the beginning and end of the list, while <b>li</b> tags represent individual list items.
+            </li>
+          </ol>
+        </p>
+        <p>
+          These are just a few of the many HTML tags available. HTML offers a wide range of tags to structure and format content, create tables, embed multimedia, build forms, and more.
+        </p>
+        <p>
+          Remember, HTML is a markup language, not a programming language. It defines the structure and content of a webpage, while CSS is used to style and visually enhance the HTML elements.
+        </p>
+        <p>
+          By using HTML tags effectively, you can create well-structured and semantically meaningful webpages. Practice and experimentation will help you become more familiar with HTML and its capabilities.
+        </p>
+   </div>
+             
+      <p> 
+        An <strong style="color: brown;">HTML</strong>  document consists of a series of elements that enclose different parts of the webpage. These elements are represented by tags, which are enclosed in angle brackets. Here's an example of a basic HTML structure:
+      </p>
+            
+    <div> 
+        <textarea readonly style="width: 602; height: 247; color: blue; background-color: black; font-size: 15;">
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <title>My First Webpage</title>
+            </head>
+            <body>
+              <h1>Welcome to My Webpage</h1>
+              <p>This is a paragraph of text.</p>
+              <img src="image.jpg" alt="Description of the image">
+            </body>
+            </html>
+        </textarea>
+    </div>
+  <p>
+    In the above example:
+
+    <ul type="disc">
+      <li>
+        The <b>!DOCTYPE html</b> declaration specifies the HTML version.
+      </li>
+      <li>
+        The <b>html</b> element is the root element that encapsulates the entire webpage.
+      </li>
+      <li>
+        The <b>head</b>  element contains meta-information about the document, such as the title that appears in the browser's title bar.
+      </li>
+      <li>
+        The <b>title</b> element sets the title of the webpage.
+      </li>
+      <li>
+        The <b>body</b> element contains the visible content of the webpage.
+      </li>
+      <li>
+        The <b>h1</b> element represents a heading with the largest size.
+      </li>
+      <li>
+        The <b>p</b> element defines a paragraph of text.
+      </li>
+      <li>
+        The <b>image</b> element inserts an image, where the <b>src</b>  attribute specifies the image file and the <b>alt</b> attribute provides alternative text for accessibility.
+      </li>
+    </ul>  
+  </p>              
+
+  <div>
+    <h3 style="text-align: center; padding-top:30px;"><b>HTML Tags  and Attributes</b></h3>
+
+
+                        <!------------------------------- HTML TAGS ------------------------------>
+
+      <p>
+        <strong class="html-strong">HTML</strong> <strong class="html-tags">Tags</strong>:
+      </p>
+      <p>
+        HTML tags are elements or markers that define the structure and content of a webpage. They are enclosed within angle brackets (<strong class="html-tags">< ></strong>)  and come in pairs, consisting of an opening tag and a closing tag. The opening tag denotes the beginning of an element, while the closing tag indicates its end. The content placed between the opening and closing tags is affected by the tag's purpose. 
+      </p>
+      <p>
+        For example, the <strong class="html-tags"><🅿></strong> tag is used to define a paragraph of text. The opening tag is <strong class="html-tags"><🅿></strong>, and the closing tag is <strong class="html-tags"></🅿></strong>. Text placed between these tags will be considered as a paragraph.
+      </p>
+        <div style="text-align:center;">
+          <img class="semantic-tag" src="photos/html-tags.jpg"> 
+          <img class="html-tag2" src="photos/html-tags2.jpeg"> 
+          <img class="html-tag3" src="photos/html-tags3.jpg" alt="">
+        </div>
+    </div>
+
+                              <!-------------------------- TTML ATTRIBUTES ------------------------>
+
+    <div>
+      <p>
+        <strong class="html-strong">HTML</strong> 
+        <strong class="html-attributes">Attributes</strong>:
+      </p>
+      <p>
+        HTML attributes provide additional information or modify the behavior of HTML elements. They are placed within the opening tag of an element and are composed of a name-value pair. The name specifies the attribute, and the value represents its assigned value.
+      </p>
+      <p>
+        For example, in the tag (link), the <strong class="html-attributes">'href '</strong> attribute specifies the URL of the webpage the link should navigate to. Here's an example:
+      </p>
+      <textarea style="color: red; background-color: black; height: 38px; width: 496px;" readonly>
+        <a href="https://www.example.com">Click here</a>
+      </textarea>
+      <p>
+        In the above code, the <strong class="html-attributes">'href '</strong>  attribute is set to <strong class="html-attributes">"https://www.example.com"</strong>, which means that clicking on the link will take the user to the URL specified.
+      </p>
+      <p>
+        Different HTML elements have different attributes that control their behavior and appearance. For instance, the <img> tag has attributes like <strong class="html-attributes">'src'</strong> to specify the image file location and <strong class="html-attributes">'alt'</strong>  to provide alternative text for accessibility purposes. 
+      </p>
+      <p>
+        It's important to note that not all HTML tags require attributes, and some tags have specific attributes unique to their purpose. Understanding how to use HTML tags and attributes effectively allows you to structure and format web content, create links, embed media, and more.
+      </p>
+      <div style="text-align:center;">
+        <img class="html-attributes-image" src="photos/html-attributes1.jpg"> 
+        <img class="html-attributes-image" src="photos/html-attributes3.jpg"> 
+        <img class="html-attributes-image" src="photos/html-attributes2.jpeg" alt="">
+      </div>
+    </div>
+  </section>
+  
+  <section>
+        <p><b>CSS</b></p>
+        <p>
+          CSS, which stands for Cascading Style Sheets, is a language used to control the presentation and layout of web pages. Think of it as a way to make your web page look attractive and organized. It works together with HTML, which defines the structure and content of your page.
+        </p>
+        <p>
+          In simple terms, CSS allows you to change the appearance of various elements on a web page, such as fonts, colors, sizes, spacing, and positioning. Instead of changing each element individually, you can create rules in CSS that apply to groups of elements or specific elements on your web page.
+        </p>
+        <p>
+          Here's how CSS works:
+        </p>
+        <p>
+          <ol type="1">
+            <li>
+              <b>Selectors:</b>To apply styles to specific elements, you use selectors. A selector is like a label that identifies which elements you want to target. For example, you can select all paragraphs, headings, or elements with a specific class or ID.
+            </li>
+            <li>
+              <b>Properties:</b>Once you've selected the elements, you can define the appearance by specifying properties. Properties are like adjectives that describe how you want the elements to look. For example, you can set the color, font-size, margin, padding, and many other visual aspects.
+            </li>
+            <li>
+              <b>Values:</b>For each property, you assign a value. The value is like the specific instruction you give for that property. For example, if you want to change the text color to blue, you set the "color" property to "blue."
+            </li>
+            <li>
+              <b>Declaration Block:</b>The combination of properties and values is called a declaration. Multiple declarations are grouped together inside curly braces { }, forming a "declaration block."
+            </li>
+          </ol>
+        </p>
+        <p>
+          Here's a simple example:
+        </p>
+        <p>
+          <b>HTML:</b>
+        </p>
+        <div> 
+          <textarea readonly style="width: 661; height: 209; color: blue; background-color: black; font-size: 15;">
+              <!DOCTYPE html>
+              <html>
+              <head>
+                <link rel="stylesheet" type="text/css" href="styles.css">
+              </head>
+              <body>
+                <h1>Hello, CSS!</h1>
+                <p>This is a paragraph.</p>
+              </body>
+              </html>
+          </textarea>
+      </div>
+      <p>
+        <b>CSS (styles.css):</b>
+      </p>
+      <div> 
+        <textarea readonly style="width: 706; height: 261; color: red; background-color: black; font-size: 15;">
+          /* This is a CSS comment */
+
+          /* Targeting the h1 element */
+          h1 {
+            color: red;
+            font-size: 30px;
+          }
+          
+          /* Targeting all paragraphs */
+          p {
+            color: blue;
+            font-size: 16px;
+          } 
+        </textarea>
+    </div>
+    <p>
+      In this example, we've created two rules: one for the <b>'h1'</b> element and one for all <b>'p'</b> (paragraph) elements. The <b>'color'</b> property changes the text color, and the <b>'font-size'</b> property adjusts the text size.
+    </p>
+    <p>
+      When you open the HTML file in a web browser, you'll see the <b>'h1'</b> heading in red with a larger font size, and all paragraphs in blue with a smaller font size.
+    </p>
+    <p>
+      CSS gives you the power to make your web pages visually appealing, and with a little practice, you can create beautiful layouts for your website!
+    </p>
+    <p>
+      Think of HTML as the skeleton of a web page, while CSS is the clothing and styling that makes it look attractive. With CSS, you can control the colors, fonts, layout, spacing, and other visual aspects of your web page. 
+    </p>
+    <p>
+      CSS works by selecting specific elements in an HTML document and applying styles to them. These styles can be defined using different properties and values. For example, you can set the font color of a paragraph to red, change the background color of a heading to blue, or adjust the spacing between elements.
+    </p>
+    <p>
+      CSS uses selectors to target specific HTML elements. Selectors can be based on element names, classes, IDs, or other attributes, allowing you to style different parts of your web page in different ways.
+    </p>
+    <p>
+      One of the powerful features of CSS is its ability to cascade styles. This means that you can define styles in multiple places, such as in an external CSS file or directly within the HTML document, and the browser will combine and apply them in a specific order. This allows you to have a consistent overall style while also making specific changes to individual elements.
+    </p>
+    <p>
+      To use CSS in your web page, you can include it in a <b>style</b> tag within the HTML document, link to an external CSS file, or use inline styles directly on HTML elements.
+    </p>
+    <div style="text-align:center;">
+      <img class="css-image" src="photos/css-image1.jpeg"> 
+      <img class="css-image" src="photos/css-image2.jpeg"> 
+      <img class="css-image" src="photos/css-image3.jpeg">
+      <img class="css-image" src="photos/css-image4.jpeg">
+      <img class="css-image" src="photos/css-image5.jpeg">
+    </div>
+  </section>
+  
+                    <!----- Files and Documents-->
+  
+  <div>
+    <p style="color: gray; text-align: center;">
+      Files and Documents on HTML and CSS
+    </p>
+    <div style="text-align: center;">
+      <a style="text-decoration: none;" href="html-css-files/Intro_to_HTML.ppt" download>
+        <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>Introduction To HTML</b></div></button>
+      </a>
+
+      <a style="text-decoration: none;" href="html-css-files/1. Internet and Web, website.pdf" download>
+        <button class="files-buttons"><img style="height: 100px;" src="images/pdf-icon.png" alt=""> <div><b>Internet And Website</b></div></button>
+      </a>
+
+      <a style="text-decoration: none;" href="html-css-files/CSS.pdf" download>
+        <button class="files-buttons"><img style="height: 100px;" src="images/pdf-icon.png" alt=""> <div><b>CSS</b></div></button>
+      </a>
+
+      <a style="text-decoration: none;" href="html-css-files/CSM 399 Web based concepts and development june 15.pdf" download>
+        <button class="files-buttons"><img style="height: 100px;" src="images/pdf-icon.png" alt=""> <div><b>WeB Based Concepts And Development</b></div></button>
+      </a>
+     
+      <a style="text-decoration: none;" href="html-css-files/HTML-CSS-JavaScript-Basics 1.pptx" download>
+        <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""> <div><b>HTML CSS JavaScript Basics</b></div></button>
+      </a>
+    </div>
+  </div>
+
+
+                    <!------------- Websites Links -------->
+
+  <div style="color: gray; text-align: center; padding-top: 50px;">
+    <p>Resourceful Websites To Get Everything You Need To Know About <b>HTML</b> and <b>CSS</b>
+    </p>
+    <div style="display: flex; justify-content: space-evenly;">
+      <button class="websites-link-button">
+        <a href="https://html.com/" target="_blank"><img  src="images/html-com-logo.webp" alt=""></a>
+      </button>
+      <button style="background-color: rgb(40, 42, 53);" class="websites-link-button">
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank" ><b style="font-size: 36px; color: rgb(4,170,109); font-family:  'Lobster Two', cursive;">W3</b><bpx style="font-size: 24;color: rgb(4,170,109);"> Schools HTML</b></a>
+      </button>
+      <button style="background-color: rgb(40, 42, 53);" class="websites-link-button">
+        <a href="https://www.w3schools.com/css/default.asp" target="_blank"> <b style="font-size: 36px; color: rgb(4,170,109); font-family:  'Lobster Two', cursive;">W3</b><bpx style="font-size: 24;color: rgb(4,170,109);"> Schools CSS</b></a>
+      </button>
+    </div>
+    <div style="display: flex; justify-content: space-evenly;">
+      <button class="websites-link-button">
+        <a href="https://developer.mozilla.org" target="_blank"><b style="font-family: 'Lobster Two', cursive;;font-size: 36px; color: rgb(6, 6, 102);">M</b><b style="font-size: 24; color: rgb(6, 6, 102)"> mdn web docs</b></a>      
+      </button>
+      <button style="background-color: rgb(32, 33, 36);" class="websites-link-button">
+        <a href="https://teamtreehouse.com/library/topic:html" target="_blank" ><b  style="color: lightgreen; font-size: 30px;">TreeHouse</b></a>
+      </button> 
+    </div>  
+  </div> 
+
+  <div style="color: gray; text-align: center; padding-top: 50px;">
+    <p>The Best YouTube Tutorials to get you Started on HTML and CSS</p>
+    <div style=" display: flex; justify-content: space-evenly;">
+  
+      <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/iwNUJU5D3aI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div style=" display: flex; justify-content: space-evenly;">
+      <iframe class="youtube-videos" width="560" height="315" src="https://www.youtube.com/embed/G3e-cpL7ofc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      <iframe class="youtube-videos" width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div style=" display: flex; justify-content: space-evenly;">
+      <iframe class="youtube-videos" width="560" height="315" src="https://www.youtube.com/embed/kUMe1FH4CHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      <iframe class="youtube-videos" width="560" height="315" src="https://www.youtube.com/embed/1Rs2ND1ryYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>  
+</div>
+  </section>
+
+  <hr class="rounded">
+  <hr class="solid">
+
+  <footer>
+    <p>A Project By: Paintsil Kwame Adonoo and Quarshie Mary Hillary  <br> Supervised By: Prof. James Hayfron Aquah <sup> &#174;</sup>
+    </p>
+    <p>
+    &#169; Copyright 2023 || All Rights Reserved
+    </p>
+  </footer>
+  
+</body>
+</html>

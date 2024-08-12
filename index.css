@@ -1,0 +1,470 @@
+
+/***************************** CSS for Website Header **********************************/
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: gray;
+  background-color: white; 
+  color: black; 
+}
+
+                 /******************* CSS For Left ********************/
+
+
+.left-section{ 
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.codenex-logo{
+  height: 40px;
+}
+
+.codenex-logo-name{
+  font-size: 20;
+  margin-left: 5px; 
+  color: rgb(71, 62, 10); 
+  font-family: 'Tilt Prism', cursive;
+}
+
+      /*****     CSS For Middle Section     ****/
+
+
+.middle-section {
+  flex: 1;
+  margin: 0px 30px 0px 30px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex: 1;
+}
+
+
+
+.search-bar {
+   flex: 1;
+   width: 0;
+   height: 35px;
+   padding-left: 10px;
+   border-radius: 3px;
+   border-style: solid;
+   border-color: rgb(194, 191, 191);
+   border-width: 0.5px;
+   margin-right: -1px;
+   box-shadow: inset 1px  2px 3px rgb(0, 0, 0, 0.15);
+   background-color: rgb(252, 250, 246);
+}
+
+.search-icon-button {
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgb(194, 191, 191); 
+  border-width: 0.5px;
+  height: 35px;
+  width: 60px;
+  border-radius: 3px;
+  margin-left: -1px;
+  background-color: rgb(224, 217, 217);
+  position: relative;
+}
+
+.search-icon-button .tooltip {
+   position: absolute;
+   background-color: grey;
+   color: white;
+   padding: 4px 8px 4px 8px;
+   border-radius: 3px;
+   bottom: -30px;
+   opacity: 0;
+   transition: opacity 0.5s;
+   pointer-events: none;
+}
+
+.search-icon-button:hover .tooltip{
+  opacity: 1;
+}
+
+.search-icon-button:hover{
+  background-color: rgb(197, 165, 165);
+  transition: 0.5s;
+}
+
+
+               /*****     CSS For Right Section     ****/
+
+.right-section {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.dark-white-mode-button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  position: relative;
+}
+
+.dark-white-mode-button .tooltip {
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding: 4px 8px 4px 8px;
+  border-radius: 3px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+
+.dark-white-mode-button:hover .tooltip{
+ opacity: 1;
+}
+
+.dark-white-mode-button:hover {
+  box-shadow: 2px 2px 5px 5px rgb(230, 217, 217);
+  transition: 0.5s;
+}
+
+.dark-white-mode-button:active {
+  background-color: rgb(250, 229, 229);
+}
+
+.menu-button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(241, 241, 241, 0.507);
+  min-width: 160px;
+  box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-right: 100px;
+}
+
+.dropdown-content a {
+  color: black;  
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; 
+  width: 250px;
+}
+
+.dropdown-content a:hover {background-color: rgb(221, 221, 221);}
+
+.dropdown:hover .dropdown-content { display: block;}
+
+.dropdown:hover .menu-button {
+  box-shadow: 2px 2px 5px 5px rgb(230, 217, 217);
+  transition: 0.5s;
+}
+
+.home-icon-button{
+  border: none;
+  margin-left: px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  position: relative;
+}
+.home-icon-button .tooltip {
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding: 4px 8px 4px 8px;
+  border-radius: 3px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+
+.home-icon-button:hover .tooltip{
+ opacity: 1;
+}
+.home-icon-button:hover{
+  box-shadow: 2px 2px 5px 5px rgb(230, 217, 217);
+  transition: 0.5s;
+}
+
+.home-icon-button:active {
+  background-color: rgb(209, 184, 184);
+}
+
+
+/************************************* CSS For Background Image and Texts ************************************/
+
+.background{
+  background: linear-gradient(rgba(70, 51, 52, 0.507), rgb(1, 10, 7)),url('images/img1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+}
+
+                      /******************** CSS for Website name ***************************/
+
+.website-name{
+  font-family: 'Tilt Prism', cursive;
+  font-size: 30px;
+  padding-top: 80px;
+  text-align: center; 
+  color: white;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+
+  
+}
+@media (max-width: 700px) {
+  h1{
+    font-size: 1em;
+  }
+}
+
+
+.motto{
+  font-family: 'Lobster Two', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+          /*****************************  CSS For The Introduction **************************/
+
+.introduction{
+  display: inline-flex;
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(243, 238, 238);
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 20px;
+}
+
+
+/************************************** CSS for Courses ****************************************/
+
+.courses{
+ 
+/*  display: flex; */
+  align-items: center;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgba(173, 216, 230, 0.226);
+  border-width: 0.1px;
+  margin: 0px 40px 200px 40px;
+  padding: 40px 0px 40px 0px;
+  border-color: antiquewhite;
+}
+
+.courses:hover{
+background-color: rgba(3, 3, 58, 0.205);
+transition: 1s;
+}
+
+.course-logo{
+ height: 80px;
+}
+ 
+
+h2{
+ font-family: 'Lobster Two', cursive;
+ font-size: 70px;
+ text-align: center;
+}
+
+.a-course{
+ font-family: 'Bricolage Grotesque', sans-serif;
+ font-size: 15px;
+ text-decoration: none;
+ font-weight: bolder;
+}
+
+
+.first-courses{
+align-self: center;
+}
+
+/***************************************** CCS for Introduction To Programming **********************************/
+
+.intro-to-programming-button{
+ width: 400px;
+ height: 200px;
+ padding: 5px 0px 5px 0px;
+ margin: 30px;
+ cursor: pointer;
+ border-width: 0.5px;
+ border-radius: 5px;
+ background-color: white;
+ border-style: solid;
+ border-color: grey;
+}
+
+.intro-to-programming-button:hover{
+ box-shadow: 1px 1px 3px 3px lightgrey;
+ transition: 0.5s;
+}
+
+/***************************************** CCS for Programming With C++ **********************************/
+
+.cplusplus-button{
+  width: 400px;
+ height: 200px;
+ padding: 5px 0px 5px 0px;
+ margin:  30px;
+ cursor: pointer;
+ border-width: 0.5px;
+ border-radius: 5px;
+ background-color: white;
+ border-style: solid;
+ border-color: blue;
+}
+
+.cplusplus-button:hover{
+ box-shadow: 1px 1px 3px 3px lightblue;
+ transition: 0.5s;
+}
+
+/***************************************** CCS for Programming With Java **********************************/
+
+.java-button{
+  width: 400px;
+ height: 200px;
+ padding: 5px 0px 5px 0px;
+ margin:  30px;
+ cursor: pointer;
+ border-width: 0.5px;
+ border-radius: 5px;
+ background-color: white;
+ border-style: solid;
+ border-color: red;
+}
+
+.java-button:hover{
+ box-shadow: 1px 1px 3px 3px rgb(241, 112, 112);
+ transition: 0.5s;
+}
+
+
+/***************************************** CCS for Programming With Python **********************************/
+
+.python-button{
+  width: 400px;
+  height: 200px;
+ padding: 5px 0px 5px 0px;
+ margin:  30px;
+ cursor: pointer;
+ border-width: 0.5px;
+ border-radius: 5px;
+ background-color: white;
+ border-style: solid;
+ border-color: rgb(240, 240, 50);
+}
+
+.python-button:hover{
+ box-shadow: 1px 1px 3px 3px rgb(241, 241, 136);
+ transition: 0.5s;
+}
+
+/******************************************* CSS for DataBase and SQL *******************************************/
+
+.database-button{
+  width: 400px;
+  height: 200px;
+ padding: 5px 0px 5px 0px;
+ margin: 30px;
+ cursor: pointer;
+ border-width: 0.5px;
+ border-radius: 5px;
+ background-color: white;
+ border-style: solid;
+ border-color: black;
+}
+
+.database-button:hover{
+ box-shadow: 1px 1px 3px 3px rgb(63, 63, 61);
+ transition: 0.5s;
+}
+
+/***************************************** CCS for HTML and CSS**********************************/
+
+.html-css-button{
+  width: 400px;
+  height: 200px;
+ padding: 5px 0px 5px 0px;
+ margin:  30px;
+ cursor: pointer;
+ border-width: 0.5px;
+ border-radius: 5px;
+ background-color: white;
+ border-style: solid;
+ border-color: green;
+}
+
+.html-css-button:hover{
+ box-shadow: 1px 1px 3px 3px lightgreen;
+ transition: 0.5s;
+}
+
+/***************************************** CCS for JavaScript Button **********************************/
+
+.javascript-button{
+  width: 360px;
+  height: 200px;
+ padding: 5px 0px 5px 0px;
+ margin:  30px;
+ cursor: pointer;
+ border-width: 0.5px;
+ border-radius: 5px;
+ background-color: white;
+ border-style: solid;
+ border-color: gold;
+}
+
+.javascript-button:hover{
+ box-shadow: 1px 1px 3px 3px rgb(241, 212, 46);
+ transition: 0.5s;
+}

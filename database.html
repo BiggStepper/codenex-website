@@ -1,0 +1,330 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                 <!--  JavaScript for Theme Button -->
+
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+
+               <!--------------------- CSS Files ------------------------------> 
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="general.css">
+
+  
+  <title>Database and SQL</title>
+</head>
+<body>
+
+        <!-------------------------------------- Website Header ----------------------------->
+ 
+                     <!---        Website Logo                 -->        
+
+  <div class="header">
+    <div class="left-section">
+      <img class="codenex-logo" src="images/website-logo.png" alt="website logo">
+      <p class="codenex-logo-name">CodeNex</p>
+    </div>
+      
+      <div class="middle-section">
+        <form class="search-form" action="">
+          <input class="search-bar" type="text" placeholder="Search" required>
+          <button class="search-icon-button" type="submit">
+            <img style="height: 15px;" src="images/search-icon.png" alt="">
+            <div class="tooltip">Search</div>
+          </button>
+        </form>            
+      </div>
+        
+    
+    <div class="right-section"> 
+      <div>
+        <button class="dark-white-mode-button" onclick="myFunction()">
+          <img style="height: 40px;" src="images/dark_white_mode_icon.png" alt="">
+          <div class="tooltip">Theme</div>
+        </button>
+      </div>  
+
+      <div class="dropdown">
+        <button class="menu-button"><img style="height: 40px;" src="images/menu-icon.png" alt=""></button>
+        <div class="dropdown-content">
+          <a href="introductiobtoprogramming.html">
+            Introduction To Programming
+          </a>
+          <a href="cplusplus.html">
+              C++
+          </a>
+          <a href="java.html">
+            Java
+          </a>
+          <a href="python.html">
+            Python
+          </a>
+          <a href="database.html">
+            Database And SQL
+          </a>
+          <a href="html-css.html">
+            HTML And CSS
+          </a>
+          <a href="javascript.html">
+            JavaScript
+          </a>
+        </div>
+      </div> 
+
+      <div>
+      <a href="index.html">
+        <button class="home-icon-button">
+          <img style="height: 30px;"  src="images/Home-icon.png" alt="">
+          <div class="tooltip">Home</div>
+        </button>
+      </a>
+      </div>      
+    </div>
+    </div>
+
+    <section class="course-section">
+      <div class="database-topic">
+        <img class="database-image" src="images/sql-logo-2.png" alt="">
+        <h3><strong class="database-strong">SQL</strong> and <strong class="database-strong">Database Management</strong></h3>
+      </div>
+      <div>  
+      </div>
+
+      <div>
+        <p>Before we delve into what <b>Database Management</b> and <b>SQL</b> is, let is talk about what <b>Data</b> is.
+        </p>
+        <p>
+          <b>Data</b> refers to raw facts, observations, measurements, or values that have been collected or recorded. It is the basic building block of information and knowledge. In its raw form, data may not hold any specific meaning or context. However, when processed and analyzed, data can provide valuable insights and help make informed decisions.
+        </p>
+        <p>
+          Data can take various forms, including:
+        </p>
+        <p>
+          <ol type="1">
+            <li>
+              <b>Textual data:</b> Written or typed information, such as articles, documents, emails, and messages. 
+            </li>
+            <li>
+              <b>Numeric data:</b> Quantitative information expressed in numbers, such as temperatures, prices, or counts.
+            </li>
+            <li>
+              <b>Categorical data:</b> Data that falls into specific categories or groups, such as colors, product types, or customer segments.
+            </li>
+            <li>
+              <b>Image data:</b> Visual information stored as images or pictures.
+            </li>
+            <li>
+              <b>Audio data:</b> Sound recordings or waveforms.
+            </li>
+            <li>
+              <b>Video data:</b> Moving visual information stored as videos. 
+            </li>
+          </ol>
+        </p>
+        <p>
+          Data can be further classified into structured, semi-structured, and unstructured data: 
+        </p>
+        <p>
+          <ol type="1">
+            <li>
+              <b>Structured data:</b> Data that is well-organized and follows a predefined format. It is typically stored in relational databases and represented as rows and columns. Structured data is easy to query and analyze using SQL.
+            </li>
+            <li>
+              <b>Semi-structured data:</b> Data that does not have a rigid structure like relational databases but contains some level of organization. It may be represented in formats like JSON (JavaScript Object Notation) or XML (eXtensible Markup Language).
+            </li>
+            <li>
+             <b>Unstructured data:</b>  Data that has no predefined structure and does not fit into traditional databases easily. Examples include text documents, social media posts, images, videos, and audio files. Analyzing unstructured data often requires more advanced techniques, such as natural language processing (NLP) for text data or computer vision for image data.
+            </li>           
+          </ol>
+        </p>
+        <p>
+          Data plays a crucial role in various fields and industries, including business, science, healthcare, finance, marketing, and more. It is the foundation for building machine learning models, conducting research, making predictions, and gaining insights into complex systems and processes.
+        </p>
+        <p>
+          When data is processed, organized, and presented in a meaningful way, it becomes information that can be used to make informed decisions, identify patterns, and extract knowledge. Effective data management, analysis, and interpretation are essential to harness the full potential of data and unlock its value.
+        </p>
+        <p>
+          Now that we have a fair idea of what <b>data</b> is  we can dive what <b>Database Management</b>  and <b>SQL</b>  are.
+        </p>
+        <p>
+         <b>Database Management</b> and <b>SQL (Structured Query Language)</b>  are essential components in the field of computer science and data management. They are used to organize, store, retrieve, and manipulate data efficiently and securely. Let's dive into each of them in detail:
+        </p>
+        <p>
+          <b>Database Management:</b> <br>
+     
+        <p>
+          <ol type="a">
+            <li>
+              <b>Data Modeling:</b>  In this phase, database designers create a conceptual representation of the data and its relationships. Various techniques like Entity-Relationship (ER) diagrams are used to map out the structure of the database.
+            <li>
+              <b>Database Schema: </b>The database schema is a formal description of the database's structure, defining the tables, their columns, data types, constraints, and relationships between tables.
+            </li>
+            <li>
+              <b>Database Operations:</b>These are the basic functions performed on a database, such as inserting, updating, deleting, and querying data. Database management systems (DBMS) provide an interface to interact with the database using SQL or other programming languages.
+            </li>
+            <li>
+              <b>Data Integrity and Security:</b>Maintaining data integrity ensures that the data remains accurate and consistent throughout its lifecycle. Database administrators implement security measures to protect sensitive information from unauthorized access.
+            </li>
+            <li>
+              <b>Data Backup and Recovery</b>Regularly backing up the database ensures data is recoverable in case of hardware failures or data corruption.
+            </li>
+            <li>
+              <b>Database Optimization:</b>Database administrators optimize the database's performance by creating indexes, managing query execution plans, and tuning the configuration to improve response times.
+            </li>
+            <li>
+              <b>Database Administration</b> Database administrators (DBAs) are responsible for managing and maintaining the database system, ensuring its availability, security, and performance.
+            </li>
+          </ol>
+        </p>
+
+        <p>
+          <b>SQL (Structured Query Language):</b> <br>
+          SQL is a domain-specific language used for managing and manipulating relational databases. It provides a standardized way to interact with the database and perform various operations on the data. SQL is both a declarative and procedural language, meaning that it allows users to specify what they want to achieve without specifying how to do it. The key aspects of SQL include:
+        </p>
+        <p>
+          <ol type="a">
+            <li>
+              <b>Data Querying: </b>SQL allows users to retrieve data from one or more tables using the SELECT statement. Users can specify conditions using WHERE clauses to filter data based on specific criteria.
+            </li>
+            <li>
+              <b>Data Manipulation: </b>SQL supports INSERT, UPDATE, and DELETE statements to modify data in the database. These statements help add new records, update existing records, or delete unwanted data.
+            </li>
+            <li>
+              <b>Data Definition: </b>SQL provides statements for creating, altering, and dropping database objects such as tables, views, indexes, and stored procedures. The CREATE, ALTER, and DROP commands are used for these operations.
+            </li>
+            <li>
+              <b>Data Control:</b> SQL includes commands for granting and revoking privileges to users to control access to the database.
+            </li>
+            <li>
+              <b>Data Transactions:</b> SQL supports transaction management using the BEGIN TRANSACTION, COMMIT, and ROLLBACK statements, ensuring data consistency and integrity even in the presence of failures.
+            </li>
+            <li>
+              <b>Joins and Aggregations </b>SQL allows users to combine data from multiple tables using JOIN operations and perform aggregations like SUM, COUNT, AVG, etc., to summarize data.
+            </li>
+          </ol>
+        </p>
+        <div style="display: flex; justify-content: center;">
+          <img class="sql-photos" src="photos/sqlcheatsheet1.jpg" alt="">
+          <img class="sql-photos" src="photos/sqlcheatsheet2.jpg" alt="">
+        </div>
+        <p>
+          SQL is supported by almost all major database management systems like MySQL, PostgreSQL, Oracle, SQL Server, SQLite, and others. While the core SQL syntax remains fairly consistent across these systems, there may be slight variations and additional features specific to each database implementation.
+        </p>
+        <p>
+          In summary, Database Management involves the overall administration and maintenance of databases, while SQL is the language used to interact with databases, perform queries, and manage data within them. Together, they form the foundation for data-driven applications and decision-making in various domains. 
+        </p>
+      </div>
+      <div>
+        <p style="color: gray; text-align: center; padding-top: 50px;">
+          Files and Documents on Everything You Need To Know About <b>Database Management</b> and <b>SQL</b>
+        </p>
+      </div>
+      <div style="text-align: center;">
+        <a style="text-decoration: none;" href="Database and Sql files/Database_Course.pdf" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/pdf-icon.png" alt=""><div><b>Database Course</b></div></button>
+        </a>
+
+        <a style="text-decoration: none;" href="Database and Sql files/Database Concepts and Technologies.ppt" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>Database Concepts and Technologie</b></div></button>
+        </a>
+        
+        <a style="text-decoration: none;" href="Database and Sql files/Database Sytems Concepts And Architecture.ppt" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>Database Sytems Concepts <br> And Architecture</b></div></button>
+        </a>
+        
+        <a style="text-decoration: none;" href="Database and Sql files/Data Modeling Using the Entity-Relationship (ER) Model.ppt" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>Data Modeling Using the <br>Entity-Relationship (ER) Model</b></div></button>
+        </a>
+
+        <a style="text-decoration: none;" href="Database and Sql files/The Relationship Data Model and Relational Database Constraints.ppt" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>The Relationship Data <br>  and Relational Database Constraints</b></div></button>
+        </a>
+         
+        <a style="text-decoration: none;" href="Database and Sql files/SQL Schema Definition, Constraints, and Queries and Views.ppt" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>SQL: Schema Definition, <br>Constraints, and Queries and Views I</b></div></button>
+        </a>
+              
+        <a style="text-decoration: none;" href="Database and Sql files/SQL Schema Definition, Contraints, and Queries and View II.pptx" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>SQL: Schema Definition, <br>Constraints, and Queries and Views II</b></div></button>
+        </a>
+                             
+        <a style="text-decoration: none;" href="Database and Sql files/SQL Queries.pptx" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>SQL Queries</b></div></button>
+        </a>
+
+        <a style="text-decoration: none;" href="Database and Sql files/SQL Queries And Views.pdf" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/pdf-icon.png" alt=""> <div><b>SQL Queries And View</b></div></button>
+        </a>
+      </div>
+
+
+      <div style="color: gray; text-align: center; padding-top: 50px;">
+        <p>Resourceful Websites To Get Everything You Need To Know About C++
+        </p>
+        <div style="display: flex; justify-content: space-evenly;">
+          <button class="websites-link-button">
+            <a href="https://learn.microsoft.com/en-us/sql/relational-databases/databases/databases?view=sql-server-ver16" target="_blank"><img style="height: 35px;" src="images/microsoft-logo.png" alt=""><b style="font-size: 40px; color: rgb(161, 160, 160);">Learn</b></a>
+          </button>
+          <button class="websites-link-button">
+            <a href="https://www.w3schools.com/sql/sql_intro.asp" target="_blank" ><b style="font-size: 36px; color: rgb(4,170,109); font-family:  'Lobster Two', cursive;">W3</b><b style="font-size: 24;color: rgb(4,170,109);"> SQL</b></a>
+          </button>
+          <button class="websites-link-button">
+            <a href="https://www.codecademy.com/learn/learn-sql" target="_blank"><img style="height: 70px;" src="images/codecademy-logo.png" alt=""></a>         
+          </button>
+        </div>
+        <div style="display: flex; justify-content: space-evenly;">
+          <button style="background-color: rgb(3, 3, 37);" class="websites-link-button">
+            <a href="https://learnsql.com/" target="_blank"><b style="color: white; font-size: 40px; ">Learn</b><b style="color: blue; font-size: 40px;">SQL</b><br><b style="color: blue; font-size: 30px;">.</b><b style="color: white; font-size: 20px;">com</b></a>
+          </button>
+          <button style="background-color: rgb(32, 33, 36);" class="websites-link-button">
+            <a href="https://teamtreehouse.com/tracks/beginning-sql" target="_blank" ><b  style="color: lightgreen; font-size: 30px;">TreeHouse</b></a>
+          </button> 
+        </div>
+      </div> 
+      <div style="color: gray; text-align: center; padding-top: 50px;">
+        <p>The Best YouTube Tutorials to get you Started on Database and SQL</p>
+        <div style="display: flex; justify-content: space-evenly;">
+          <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/4cWkVbC2bNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/6Iu45VZGQDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div style="display: flex; justify-content: space-evenly;">
+          <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/5OdVJbNCSso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/7S_tz1z_5bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rounded">
+    <hr class="solid">
+
+    <footer>
+      <p>A Project By: Paintsil Kwame Adonoo and Quarshie Mary Hillary  <br> Supervised By: Prof. James Hayfron Aquah <sup> &#174;</sup>
+      </p>
+      <p>
+      &#169; Copyright 2023 || All Rights Reserved
+      </p>
+</footer>
+</body>
+</html>

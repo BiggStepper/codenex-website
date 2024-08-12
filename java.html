@@ -1,0 +1,282 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                     <!--  JavaScript for Theme Button -->
+
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+
+   <!--------------------- CSS Files ------------------------------>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="general.css">
+  <title>Java</title>
+</head>
+<body>
+
+        <!--------------------------------- Website Header ---------------------------->
+ 
+                                <!---        Website Logo                 -->
+
+  <div class="header">
+    <div class="left-section">
+      <img class="codenex-logo" src="images/website-logo.png" alt="website logo">
+           <p class="codenex-logo-name">CodeNex</p>
+    </div>
+      
+      <div class="middle-section">
+        <form class="search-form" action="">
+          <input class="search-bar" type="text" placeholder="Search" required>
+          <button class="search-icon-button" type="submit">
+            <img style="height: 15px;" src="images/search-icon.png" alt="">
+            <div class="tooltip">Search</div>
+          </button>
+        </form>            
+      </div>
+        
+    
+    <div class="right-section"> 
+      <div>
+        <button class="dark-white-mode-button" onclick="myFunction()">
+          <img style="height: 40px;" src="images/dark_white_mode_icon.png" alt="">
+          <div class="tooltip">Theme</div>
+        </button>
+      </div>
+      
+      <div class="dropdown">
+        <button class="menu-button"><img style="height: 40px;" src="images/menu-icon.png" alt=""></button>
+        <div class="dropdown-content">
+          <a href="introductiobtoprogramming.html">
+            Introduction To Programming
+          </a>
+          <a href="cplusplus.html">
+              C++
+          </a>
+          <a href="java.html">
+            Java
+          </a>
+          <a href="python.html">
+            Python
+          </a>
+          <a href="database.html">
+            Database And SQL
+          </a>
+          <a href="html-css.html">
+            HTML And CSS
+          </a>
+          <a href="javascript.html">
+            JavaScript
+          </a>
+        </div>
+      </div> 
+
+      <div>
+      <a href="index.html">
+        <button class="home-icon-button">
+          <img style="height: 30px;"  src="images/Home-icon.png" alt="">
+          <div class="tooltip">Home</div>
+        </button>
+      </a>
+      </div>      
+    </div>
+    </div>
+       
+    <section class="course-section">
+      <div class="java-topic">
+        <img class="java-image" src="images/java-logo.png" alt="">
+        <h3>Programming With <strong class="java-strong">Java</strong></h3>
+      </div>
+      <div>
+        <p>               
+         Java programming is a widely used, object-oriented, high-level programming language developed by James Gosling and his team at Sun Microsystems (now owned by Oracle Corporation). It was officially released in 1995 and quickly gained popularity due to its simplicity, portability, and robustness. Java is designed to be platform-independent, which means that Java programs can run on any device or operating system without modification, as long as there is a Java Virtual Machine (JVM) installed.
+        </p>
+        <p>
+          Here are some key aspects of Java programming:
+        </p>
+        <p>
+        <ul type="circle">
+          <li>
+            <p>
+              <b>Object-Oriented:</b> Java is an object-oriented programming (OOP) language, which means it focuses on creating objects that represent real-world entities, with data and behavior encapsulated within those objects. This paradigm allows developers to write modular, reusable, and maintainable code.
+            </p>         
+          </li>
+          <li>
+            <p>
+              <b>Platform Independence:</b> One of the most significant advantages of Java is its "Write Once, Run Anywhere" (WORA) capability. Java code is compiled into an intermediate form called bytecode, which can be executed on any platform with a compatible JVM. This makes Java highly portable and suitable for a wide range of devices and environments.
+            </p>          
+          </li>
+          <li>
+            <p>
+              <b>Java Virtual Machine (JVM)</b> The JVM is a crucial component of the Java platform. It interprets the bytecode and executes the Java program on the target platform. Different JVM implementations exist for various operating systems and architectures, ensuring Java's cross-platform compatibility.
+            </p>
+            
+          </li>
+          <li>
+            <p>
+              <b>Syntax:</b> Java's syntax is influenced by C and C++, making it relatively familiar to developers from those backgrounds. Java's syntax is easy to read and understand, featuring curly braces {} for code blocks, semicolons to terminate statements, and a strong type system.
+            </p>            
+          </li>
+          <li>
+            <p>
+              <b>Memory Management:</b> Java employs automatic memory management through a process called garbage collection. The JVM automatically handles memory allocation and deallocation, relieving developers from managing memory explicitly. This helps prevent memory leaks and other memory-related issues.
+            </p>          
+          </li>
+          <li>
+            <p>
+              <b>Robustness:</b> Java enforces strong type-checking during compile-time, providing robust error handling and reducing the likelihood of runtime errors. It also includes exception handling mechanisms to gracefully deal with errors that may occur during program execution.
+            </p>          
+          </li>
+          <li>
+            <p>
+              <b>Libraries and APIs</b> Java comes with an extensive standard library, known as the Java Standard Edition (Java SE) library, which provides a wide range of built-in functions and classes for various tasks, such as file I/O, networking, GUI development, and more. Additionally, there are numerous third-party libraries and APIs available that further enhance Java's capabilities.
+            </p>          
+          </li>
+          <li>
+            <p>
+              <b>Security:</b> Java incorporates a robust security model that prevents unauthorized access to resources and ensures that Java applets and applications run within a controlled environment (sandbox) to prevent potential harm to the user's system.
+            </p>            
+          </li>
+          <li>
+            <p>
+              <b>Multithreading</b> Java supports multithreading, allowing developers to create concurrent applications that can perform multiple tasks simultaneously. This is especially valuable in applications that require efficient handling of tasks like handling user input, network communications, or parallel processing.
+            </p>           
+          </li>
+        </ul>  
+        </p>
+      </div>
+      <div>
+        <p>
+          Java Applications:
+        </p>
+        <ul type="disc">
+          <li>
+            <p>
+              <b>Web Development:</b> Java is widely used for web development, with frameworks like Spring and JavaServer Faces (JSF) being popular choices. Servlets and JavaServer Pages (JSP) are also commonly used for building dynamic web applications.
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Mobile Applications</b> Java is the primary language used for Android app development. Android applications are written in Java and run on Android devices that include a Java-based runtime environment.
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Enterprise Software:</b> Java is prevalent in the development of large-scale enterprise applications, thanks to its reliability, scalability, and portability. Java Enterprise Edition (Java EE) provides a suite of libraries and APIs tailored for building enterprise-level applications.
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Scientific Computing:</b> Java is used in scientific computing applications due to its strong numeric support and libraries like Apache Commons Math.
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Internet of Things (IoT):</b> Java's portability and robustness make it a suitable choice for programming IoT devices and connecting them to the cloud.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div style="color: gray; text-align: center; padding-top: 100px;">
+        <p>
+          Files and Documents on Everything You Need To Know About Java Programming
+        </p>
+        <div style="text-align: center;">
+          <a style="text-decoration: none;" href="Java files/Java Fundamentals.pdf" download>
+            <button class="files-buttons"><img style="height: 100px;" src="images/pdf-icon.png" alt=""><div><b>Java Fundamentals</b></div></button>
+          </a>
+  
+          <a style="text-decoration: none;" href="Java files/Introduction To Java Programming.pptx" download>
+            <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>Introduction To Java Programming</b></div></button>
+          </a>
+  
+          <a style="text-decoration: none;" href="Java files/Control Statements I.pptx" download>
+            <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>Java Control Statements I</b></div></button>
+          </a>
+          
+          <a style="text-decoration: none;" href="Java files/Control Statements II.pptx" download>
+            <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>Java Control Statements II</b></div></button>
+          </a>
+           
+          <a style="text-decoration: none;" href="Java files/Introduction to Java Applications.pptx" download>
+            <button class="files-buttons"><img style="height: 100px;" src="images/powerpoint-icon.jpg" alt=""><div><b>Introduction to Java Applications</b></div></button>
+          </a>
+        </div>
+        
+        <div style="color: gray; text-align: center; padding-top: 50px;">
+          <p>Resourceful Websites To Get Everything You Need To Know About Java Programming
+          </p>
+        <div style="display: flex; justify-content: space-evenly;">
+          <button style="background-color: rgb(76, 175, 80);" class="websites-link-button">
+            <a href="https://www.javatpoint.com/java-tutorial" target="_blank" ><img src="images/jtp_logo.png" alt=""></a>
+          </button>
+          <button style="background-color: rgb(40, 42, 53);"   class="websites-link-button">
+            <a href="https://www.w3schools.com/java/" target="_blank" ><b style="font-size: 36px; color: rgb(4,170,109); font-family:  'Lobster Two', cursive;">W3</b><bpx style="font-size: 24;color: rgb(4,170,109);"> Schools Java</b></a>
+          </button>  
+          <button style="background-color: rgb(4, 12, 20);" class="websites-link-button">
+            <a href="https://dev.java/" target="_blank"><img style="height: 30px;" src="images/java-logo-vector.png" alt=""><b style="color: white; font-size: 24px;">Dev.java</b></a>         
+          </button>
+        </div>
+        <div style="display: flex; justify-content: space-evenly;">
+          <button style="background-color: rgb(0, 122, 255);" class="websites-link-button">
+            <a href="https://www.java.com/en/" target="_blank"><img style="height: 60px;" src="images/java-logo-vector.png" alt=""> <b style="color: white; font-size: 50px;">.com</b> </a>
+          </button>
+  
+          <button class="websites-link-button">
+            <a href="https://www.codecademy.com/catalog/language/java" target="_blank"><img style="height: 70px;" src="images/codecademy-logo.png" alt=""></a>         
+          </button>
+        </div>
+      </div>
+      <div style="color: gray; text-align: center; padding-top: 50px;">
+        <p>The Best YouTube Tutorials to get you Started on Java</p>
+      <div style="display: flex; justify-content: space-evenly;">
+        <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/r59xYe3Vyks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/BGTx91t8q50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div style="display: flex; justify-content: space-evenly;">
+        <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/eIrMbAQSU34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/xk4_1vDrzzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       </div>
+       <div style="display: flex; justify-content: space-evenly;">
+        <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/A74TOX803D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <iframe style="margin: 10px 10px 10px 10px;"  width="560" height="315" src="https://www.youtube.com/embed/CFD9EFcNZTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div> 
+    </section>
+
+
+    <hr class="rounded">
+    <hr class="solid">
+  
+    <footer>
+      <p>A Project By: Paintsil Kwame Adonoo and Quarshie Mary Hillary  <br> Supervised By: Prof. James Hayfron Aquah <sup> &#174;</sup>
+      </p>
+      <p>
+      &#169; Copyright 2023 || All Rights Reserved
+      </p>
+    </footer>
+    
+</body>
+</html>

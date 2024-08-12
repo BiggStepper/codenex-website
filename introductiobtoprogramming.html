@@ -1,0 +1,286 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                      <!--  JavaScript for Theme Button -->
+
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+
+   <!--------------------- CSS Files ------------------------------>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="general.css">
+  
+  <title>Introduction to Programming</title>
+</head>
+<body>
+
+        <!-------------------------------------- Website Header ----------------------------------->
+                     
+                                    <!---        Website Logo                 -->
+
+        <div class="header">
+    <div class="left-section">
+      <img class="codenex-logo" src="images/website-logo.png" alt="website logo">
+           <p class="codenex-logo-name">CodeNex</p> 
+    </div>
+      
+      <div class="middle-section">
+        <form class="search-form" action="">
+          <input class="search-bar" type="text" placeholder="Search" required>
+          <button class="search-icon-button" type="submit">
+            <img style="height: 15px;" src="images/search-icon.png" alt="">
+            <div class="tooltip">Search</div>
+          </button>
+        </form>            
+      </div>
+        
+    
+    <div class="right-section"> 
+      <div>
+        <button class="dark-white-mode-button" onclick="myFunction()">
+          <img style="height: 40px;" src="images/dark_white_mode_icon.png" alt="">
+          <div class="tooltip">Theme</div>
+        </button>
+      </div>
+      
+      <div class="dropdown">
+        <button class="menu-button"><img style="height: 40px;" src="images/menu-icon.png" alt=""></button>
+        <div class="dropdown-content">
+          <a href="introductiobtoprogramming.html">
+            Introduction To Programming
+          </a>
+          <a href="cplusplus.html">
+              C++
+          </a>
+          <a href="java.html">
+            Java
+          </a>
+          <a href="python.html">
+            Python
+          </a>
+          <a href="database.html">
+            Database And SQL
+          </a>
+          <a href="html-css.html">
+            HTML And CSS
+          </a>
+          <a href="javascript.html">
+            JavaScript
+          </a>
+        </div>
+      </div> 
+
+      <div>
+      <a href="index.html">
+        <button class="home-icon-button">
+          <img style="height: 30px;"  src="images/Home-icon.png" alt="">
+          <div class="tooltip">Home</div>
+        </button>
+      </a>
+      </div>      
+    </div>
+    </div>
+      
+
+    <section class="course-section">
+      <div class="intro-to-programming-topic">
+        <img class="intro-to-programming-image" src="images/intro-to-programming.png" alt="">
+        <h3><strong class="intro-to-programming-strong">Introduction To Programming</strong></h3>
+      </div>
+      <div>
+        <p>
+          <b>Programming</b> is the process of creating instructions for a computer to execute specific tasks. It's a fundamental skill that empowers humans to communicate with computers and leverage their capabilities to solve a wide range of problems. Through programming, you can develop software applications, websites, games, automation scripts, and much more. This introduction will provide a detailed overview of programming concepts, languages, and the essential steps involved in creating a program.
+        </p>
+      </div>
+      <div>
+        <p><b>Why Programming Matters:</b></p>
+        Programming is the backbone of software development and is responsible for creating the applications and systems that power our digital lives. From mobile apps to web applications, from operating systems to video games, programming is the underlying force that brings technology to life. It allows us to automate repetitive tasks, manipulate data, analyze information, and create new tools and experiences.
+      </div>
+      <div>
+        <p><b>Programming Concepts:</b></p>
+        <ul type="disc">
+          <li>
+           <p><b>Algorithm:</b> Algorithms play a crucial role in programming as they provide a systematic and structured approach to solving problems and performing tasks efficiently. An algorithm is a step-by-step set of instructions that outlines the process to achieve a specific goal. In programming, algorithms serve as blueprints for writing code that can be understood and executed by computers. Here's a detailed look at algorithms in programming.
+          </p>
+          </li>
+          <li>
+            <p>
+              <b>Data:</b> In programming, data refers to the information that a program processes, manipulates, and produces as output. Data is fundamental to almost every aspect of programming, from simple calculations to complex software applications. Understanding different types of data and how to handle them is crucial for effective programming. 
+            </p>
+            <p><b>Data Types:</b> <br>
+              Data types define the kind of value that a variable can hold. Different programming languages support various data types, including:
+            </p>
+            <ul type="circle">
+              <li>
+                <b>Numeric Types:</b> Integers (whole numbers) and floating-point numbers (decimal numbers).
+              </li>
+              <li>
+                <b>String Type:</b> Sequences of characters, used to represent text.
+              </li>
+              <li>
+                <b>Boolean Type:</b> Represents true or false values, used for logical operations.
+              </li>
+              <li>
+                <b>Character Type:</b> Represents a single character, like 'a' or '9'.
+              </li>
+              <li>
+                <b>Array/Lists:</b> Ordered collections of elements, often of the same data type
+              </li>
+              <li>
+                <b>Tuple:</b> Similar to arrays but can hold a mix of data types and are usually immutable.
+              </li>
+              <li>
+                <b>Dictionary/Map</b> Stores key-value pairs for efficient data retrieval.
+              </li>
+              <li>
+                <b>Set:</b> Unordered collection of unique element
+              </li>
+              <li>
+                <b>Custom Types:</b> Defined by programmers to encapsulate specific data structures and behaviors.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>
+              <b>Coding Structures</b> 
+              Control structures in programming are constructs that determine the flow of execution within a program. They allow you to make decisions, perform actions conditionally, and repeat operations iteratively. Control structures are essential for creating programs that can adapt to different situations and execute tasks efficiently. There are three main categories of control structures: conditional statements, loops, and branching.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4>Programming Languages</h4>
+        <p>
+          Programming languages are tools that enable humans to communicate instructions to computers. They provide a way to write code in a human-readable format, which is then translated into machine-readable instructions that computers can execute. There are numerous programming languages, each with its own strengths, weaknesses, and areas of application. Some of the pupolar are <a href="python.html">Python</a>,<a href="Java.html"> java</a>,<a href="cplusplus.html"> C++</a>. Even though <a href="Javascript.html"> JavaScript</a><a href="database.html"> SQ,L</a>,<a href="html-css.html"> HTML and CSS</a>  are not exactly considered as programming languages, they are very useful in programming.
+        </p>
+        <p>
+          These are just a few examples, and there are many more programming languages catering to various domains and application types. The choice of programming language often depends on factors such as the task at hand, the target platform, performance requirements, and personal preferences. Learning multiple languages over time can make you a more versatile programmer, as each language brings unique concepts and approaches to problem-solving.
+        </p>
+      </div>
+      <div>
+        <h4>IDE</h4>
+        <p>
+          An Integrated Development Environment (IDE) is a software application that provides a comprehensive set of tools and features to assist programmers in writing, testing, and debugging code. IDEs aim to streamline the development process by offering a centralized environment where all aspects of coding can be managed efficiently. Most popular examples are the <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> which has extentions that support all programming languages including <a href="html-css.html">HTML and CSS</a>, the <a href="https://www.codeblocks.org/downloads/" target="_blank">CodeBlocks</a> for <a href="cplusplus.html">C++</a>, the <a href="https://www.jetbrains.com/help/idea/installation-guide.html" target="_blank">InteliJ IDEA</a> for <a href="java.html">Java</a>, <a href="https://kotlinlang.org/" target="_blank">Kotlin</a>, and other JVM languages,
+          the <a href="https://www.jetbrains.com/pycharm/" target="_blank">PyCharm</a> for <a href="python.html">Python</a> and <a href="https://www.mysql.com/downloads/" target="_blank">MySQL</a> for <a href="database.html">SQL</a>
+        </p>
+        <p>
+          These IDEs provide various features to enhance the coding experience, improve productivity, and ensure the efficient development of software projects. The choice of IDE depends on your programming language, development platform, and personal preferences. It's common for developers to explore different IDEs to find the one that best suits their needs and workflow.
+        </p>
+      </div>
+      <div>
+        <h4>Learning Programming</h4>
+        <p>
+          Learning programming involves hands-on practice, continuous learning, and problem-solving. Beginners often start with user-friendly languages like Python due to its straightforward syntax and extensive libraries. Online resources, tutorials, coding platforms, and courses are available to help learners grasp programming concepts and techniques.
+        </p>
+      </div>
+      <div>
+        <h4>Why Learn Programming</h4>
+        <ul type="disc">
+          <li>
+            <b>Problem Solving</b> Programming enables you to break down complex problems into smaller, manageable tasks and solve them systematically.
+          </li>
+          <li>
+            <b>Creativity:</b> Programming allows you to create software and applications that can potentially impact and improve people's lives.
+          </li>
+          <li>
+            <b>Career Opportunities</b> Programming skills are in high demand across various industries. From software development to data analysis, there are numerous career paths.
+          </li>
+          <li>
+            <b>Automation:</b> Programming helps automate repetitive tasks, increasing efficiency and productivity.
+          </li>
+          <li>
+            <b>Innovation:</b> Many technological innovations are driven by programming, from cutting-edge apps to advancements in artificial intelligence.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p>
+          Programming is a valuable skill that empowers individuals to create technology-driven solutions to various problems. It requires logical thinking, creativity, attention to detail, and continuous learning to keep up with evolving technologies and best practices. Whether you're interested in web development, game design, data analysis, artificial intelligence, or any other field, programming is a fundamental skill that can open doors to exciting opportunities.
+        </p>
+      </div>
+     <div style="color: gray; text-align: center; padding-top: 50px;">
+      <p>
+        Files and Documents on Introduction To Programming
+      </p>
+      <div style="display: flex;justify-content: center; ">
+        <a style="text-decoration: none;" href="intro-to-programming-files/Principles of Programming.pdf" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/pdf-icon.png" alt=""> <div><b>Principles of Programming</b></div></button>
+        </a>
+        <a style="text-decoration: none;" href="intro-to-programming-files/Introduction to Algorithms and Programming.pdf" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/pdf-icon.png" alt=""> <div><b>Introduction to Algorithms and Programming</b></div></button>
+        </a>
+        <a style="text-decoration: none;" href="intro-to-programming-files/PROGRAMMING TRY QUESTIONS.pdf" download>
+          <button class="files-buttons"><img style="height: 100px;" src="images/pdf-icon.png" alt=""> <div><b>Programming Try Questions</b></div></button>
+        </a>
+      </div>
+     </div>
+
+     <div style="color: gray; text-align: center; padding-top: 50px;">
+      <p>Resourceful Websites That will You The Best To Introduction To Programming</p>     
+      <div style="display: flex; justify-content: space-evenly;">
+        <button   class="websites-link-button">
+          <a href="https://www.coursera.org/articles/what-is-programming" target="_blank" ><img style="height: 40px;" src="images/cousrsera-logo.svg" alt=""></a>
+        </button>
+        
+        <button class="websites-link-button">
+          <a href="https://www.simplilearn.com/best-programming-languages-start-learning-today-article" target="_blank"><img style="height: 60px;" src="images/simplilearn_logo.svgz" alt=""></a>
+        </button> 
+      </div>
+          <div style="display: flex; justify-content: space-evenly;">
+        <button class="websites-link-button">
+          <a href="https://www.computerscience.org/resources/computer-programming-languages/" target="_blank"><img style="height: 60px;" src="images/computerscienceorg-logo.svg" alt=""></a>         
+        </button>
+         
+        <button class="websites-link-button">
+          <a href="https://uk.findresultsnow.com/web?q=computer%20programming%20for%20beginners&o" target="_blank" ><b style="color: rgb(119, 51, 68); font-size: 30px;">FIND </b><b style="color: rgb(113, 113, 113); font-size: 30px">RESULTS</b><b style="color: rgb(119, 51, 68); font-size: 30px"> NOW</b><b style="color: rgb(113, 113, 113); font-size: 30px">-PROGRAMMING</b></a>
+        </button>  
+      </div>
+     </div>
+
+     <div style="color: gray; text-align: center; padding-top: 50px;">
+      <p>The Best YouTube Tutorials on Introduction To Programming</p>
+      <div style="display: flex; justify-content: space-evenly;">
+        <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/zOjov-2OZ0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/ykSsccKKNh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div style="display: flex; justify-content: space-evenly;">
+        <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/8mAITcNt710" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe style="margin: 10px 10px 10px 10px;" width="560" height="315" src="https://www.youtube.com/embed/F7CWjuaC6gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+      </div>
+    </section>
+
+    <hr class="rounded">
+    <hr class="solid">
+
+    <footer>
+      <p>A Project By: Paintsil Kwame Adonoo and Quarshie Mary Hillary  <br> Supervised By: Prof. James Hayfron Aquah <sup> &#174;</sup>
+      </p>
+      <p>
+      &#169; Copyright 2023 || All Rights Reserved
+      </p>
+    </footer>
+</body>
+</html>

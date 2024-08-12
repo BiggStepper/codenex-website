@@ -1,0 +1,194 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                         <!--  JavaScript for Theme Button -->
+
+    <script>
+      function myFunction() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&display=swap" rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+
+                       <!--------------------- CSS Files ------------------------------>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="general.css">
+    
+    <title>CodeNex</title>
+  </head>
+  <body>
+  
+        <!------------------------------------ Website Header ----------------------------->
+
+                          <!---        Website Logo                 -->
+        
+       <div class="header">
+        <div class="left-section">
+           <img class="codenex-logo" src="images/website-logo.png" alt="website logo">
+           <p class="codenex-logo-name">CodeNex</p>
+        </div>
+          
+          <div class="middle-section">
+            <form class="search-form" action="">
+              <input class="search-bar" type="text" placeholder="Search" required>
+              <button class="search-icon-button" type="submit">
+                <img style="height: 15px;" src="images/search-icon.png" alt="">
+                <div class="tooltip">Search</div>
+              </button>
+            </form>            
+          </div>
+           
+        
+        <div class="right-section"> 
+          <div>
+            <button class="dark-white-mode-button" onclick="myFunction()">
+              <img style="height: 40px;" src="images/dark_white_mode_icon.png" alt="">
+            <div class="tooltip">Theme</div>
+            </button>
+          </div>
+          
+          <div class="dropdown">
+            <button class="menu-button"><img style="height: 40px;" src="images/menu-icon.png" alt=""></button>
+            <div class="dropdown-content">
+              <a href="introductiobtoprogramming.html">
+                Introduction To Programming
+              </a>
+              <a href="cplusplus.html">
+                 C++
+              </a>
+              <a href="java.html">
+                Java
+              </a>
+              <a href="python.html">
+                Python
+              </a>
+              <a href="database.html">
+                Database And SQL
+              </a>
+              <a href="html-css.html">
+                HTML And CSS
+              </a>
+              <a href="javascript.html">
+                JavaScript
+              </a>
+            </div>
+          </div> 
+
+          <div>
+          <a href="index.html">
+            <button class="home-icon-button">
+              <img style="height: 30px;"  src="images/Home-icon.png" alt="">
+            <div class="tooltip">Home</div>
+            </button>
+          </a>
+          </div>      
+        </div>
+       </div>
+                           
+                                <!--  Website Background   -->
+
+    <div class="background">
+      <div class="website-name">
+        <h1>CodeNex</h1> 
+      </div>
+      <div>
+        <h2 class="motto">"Your Programming Support And Resource Web Service"</h2>
+      </div>
+      <div class="introduction">
+        <p>Embarking on your programming journey? Look no further. CodeNex is your compass in the realm of programming languages. We're dedicated to laying down the solid foundation you need to understand, embrace, and excel in the world of coding.</p>
+        <p>At CodeNex, we believe that every coder begins with a single step. Our user-friendly platform offers crisp and concise introductions to a variety of programming languages, demystifying the intricacies for beginners. Whether you're intrigued by Python's elegance, JavaScript's versatility, or C++'s power, we've got you covered.</p>
+        <p>But why stop at an introduction? CodeNex takes you beyond the basics. We're your launchpad to an array of handpicked websites and resources that facilitate deeper exploration. These carefully curated materials are your trusted companions on the journey from novice to ninja.</p>
+      </div>
+    </div>
+   
+
+  <section>
+    <div>
+      <div>
+        <h2>Courses:</h2>
+      </div>
+      <div class="courses">
+        <div style="display: flex; direction: row; justify-content: space-evenly;">
+          <button class="intro-to-programming-button">
+            <a href="introductiobtoprogramming.html"><img class="course-logo" src="images/intro-to-programming.png" alt="">
+              <div class="a-course">Introduction To Programming</div>
+            </a> 
+          </button>
+          <button class="cplusplus-button">
+            <a href="cplusplus.html"><img class="course-logo" src="images/C++-Logo.png" alt="">
+              <div class="a-course">Programming With C++</div>
+            </a> 
+          </button>
+          <button class="java-button">
+            <a href="java.html"><img class="course-logo" src="images/java-logo.png" alt="">
+              <div class="a-course">Programming With Java</div>
+            </a> 
+          </button>
+        </div>
+        <div style="display: flex; justify-content: space-evenly;" >
+          <button class="python-button">
+            <a href="python.html"><img class="course-logo" src="images/python-logo.png" alt="">
+              <div class="a-course"> Programming With Python</div>   
+            </a>              
+          </button>
+          
+          <button class="database-button">
+            <a href="database.html"><img class="course-logo" src="images/sql-logo-2.png" alt="">
+              <div class="a-course">DataBase and SQL</div>   
+            </a> 
+          </button>
+  
+          <button class="html-css-button">
+            <a href="html-css.html"><img class="course-logo" src="images/html-css-logo.png" alt="">
+              <div class="a-course">HTML And CSS</div>   
+            </a> 
+          </button>  
+        </div>
+        <div style="display: flex; justify-content: space-evenly;">
+          <button class="javascript-button">
+            <a href="javascript.html"><img class="course-logo" src="images/javascript-logo.png" alt="">
+              <div class="a-course">JavaScript</div>   
+            </a> 
+          </button> 
+        </div>       
+      </div>
+    </div> 
+  </section>
+
+  <footer>
+    <p>A Project By: Paintsil Kwame Adonoo and Quarshie Mary Hillary  <br> Supervised By: Prof. James Hayfron Aquah <sup> &#174;</sup>
+    </p>
+    <p>
+    &#169; Copyright 2023 || All Rights Reserved
+    </p>
+  </footer>
+     
+  </body>
+</html>
