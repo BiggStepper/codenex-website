@@ -46,7 +46,7 @@
 .introduction article {
   text-align: center;
   color: white;
-  background: linear-gradient(160deg, rgb(179, 179, 255), blue);
+  background: linear-gradient(160deg, blue, rgb(0, 0, 77));
   font-weight: 500;
   padding: 15px;
   max-width: 330px;
