@@ -44,11 +44,12 @@ h1 {
 }
 
 .introduction article {
+  text-align: center;
   color: white;
   background-color: rgb(216, 166, 23);
   font-weight: 500;
   padding: 15px;
-  max-width: 350px;
+  max-width: 330px;
   border-radius: 10px;
   font-size: 1.2rem;
   margin: 30px 5px;
