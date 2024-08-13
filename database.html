@@ -11,98 +11,58 @@
        element.classList.toggle("dark-mode");
     }
     </script>
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
 
                <!--------------------- CSS Files ------------------------------> 
+  <link rel="stylesheet" href="header.css">             
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="general.css">
 
-  
   <title>Database and SQL</title>
 </head>
 <body>
-
-        <!-------------------------------------- Website Header ----------------------------->
- 
-                     <!---        Website Logo                 -->        
-
-  <div class="header">
-    <div class="left-section">
-      <img class="codenex-logo" src="images/website-logo.png" alt="website logo">
-      <p class="codenex-logo-name">CodeNex</p>
+  <header>
+    <div class="website-logo-container">
+      <a href="index.html">
+        <img src="images/website-logo.png" alt="website-logo">
+      </a>
     </div>
-      
-      <div class="middle-section">
-        <form class="search-form" action="">
-          <input class="search-bar" type="text" placeholder="Search" required>
-          <button class="search-icon-button" type="submit">
-            <img style="height: 15px;" src="images/search-icon.png" alt="">
-            <div class="tooltip">Search</div>
-          </button>
-        </form>            
-      </div>
-        
-    
-    <div class="right-section"> 
-      <div>
-        <button class="dark-white-mode-button" onclick="myFunction()">
-          <img style="height: 40px;" src="images/dark_white_mode_icon.png" alt="">
-          <div class="tooltip">Theme</div>
-        </button>
-      </div>  
-
-      <div class="dropdown">
-        <button class="menu-button"><img style="height: 40px;" src="images/menu-icon.png" alt=""></button>
-        <div class="dropdown-content">
-          <a href="introductiobtoprogramming.html">
-            Introduction To Programming
-          </a>
-          <a href="cplusplus.html">
-              C++
-          </a>
-          <a href="java.html">
-            Java
-          </a>
-          <a href="python.html">
-            Python
-          </a>
-          <a href="database.html">
-            Database And SQL
-          </a>
+    <nav>
+      <ul>
+        <li><a href="introductiobtoprogramming.html">
+          introduction to programming
+        </a>
+        </li>
+        <li>
           <a href="html-css.html">
-            HTML And CSS
+            html and css
           </a>
+        </li>
+        <li>
           <a href="javascript.html">
             JavaScript
           </a>
-        </div>
-      </div> 
-
-      <div>
-      <a href="index.html">
-        <button class="home-icon-button">
-          <img style="height: 30px;"  src="images/Home-icon.png" alt="">
-          <div class="tooltip">Home</div>
-        </button>
-      </a>
-      </div>      
-    </div>
-    </div>
+        </li>
+        <li>
+          <a href="java.html">
+            Java
+          </a>
+        </li>
+        <li>
+          <a href="python.html">
+            python
+          </a>
+        </li>
+        <li>
+          <a href="java.html">
+            java
+          </a>
+        </li>
+        <li><a href="database.html">
+          DataBase and SQL
+        </a></li>
+      </ul>
+    </nav>
+  </header>
 
     <section class="course-section">
       <div class="database-topic">

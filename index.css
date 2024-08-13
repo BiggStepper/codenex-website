@@ -1,243 +1,4 @@
 
-/***************************** CSS for Website Header **********************************/
-
-.header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 50px;
-  margin-top: 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-color: gray;
-  background-color: white; 
-  color: black; 
-}
-
-                 /******************* CSS For Left ********************/
-
-
-.left-section{ 
-  width: 200px;
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-}
-
-.codenex-logo{
-  height: 40px;
-}
-
-.codenex-logo-name{
-  font-size: 20;
-  margin-left: 5px; 
-  color: rgb(71, 62, 10); 
-  font-family: 'Tilt Prism', cursive;
-}
-
-      /*****     CSS For Middle Section     ****/
-
-
-.middle-section {
-  flex: 1;
-  margin: 0px 30px 0px 30px;
-  max-width: 500px;
-  display: flex;
-  align-items: center;
-}
-
-
-.search-form {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-  flex: 1;
-}
-
-
-
-.search-bar {
-   flex: 1;
-   width: 0;
-   height: 35px;
-   padding-left: 10px;
-   border-radius: 3px;
-   border-style: solid;
-   border-color: rgb(194, 191, 191);
-   border-width: 0.5px;
-   margin-right: -1px;
-   box-shadow: inset 1px  2px 3px rgb(0, 0, 0, 0.15);
-   background-color: rgb(252, 250, 246);
-}
-
-.search-icon-button {
-  cursor: pointer;
-  border-style: solid;
-  border-color: rgb(194, 191, 191); 
-  border-width: 0.5px;
-  height: 35px;
-  width: 60px;
-  border-radius: 3px;
-  margin-left: -1px;
-  background-color: rgb(224, 217, 217);
-  position: relative;
-}
-
-.search-icon-button .tooltip {
-   position: absolute;
-   background-color: grey;
-   color: white;
-   padding: 4px 8px 4px 8px;
-   border-radius: 3px;
-   bottom: -30px;
-   opacity: 0;
-   transition: opacity 0.5s;
-   pointer-events: none;
-}
-
-.search-icon-button:hover .tooltip{
-  opacity: 1;
-}
-
-.search-icon-button:hover{
-  background-color: rgb(197, 165, 165);
-  transition: 0.5s;
-}
-
-
-               /*****     CSS For Right Section     ****/
-
-.right-section {
-  width: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-shrink: 0;
-  margin-right: 20px;
-}
-
-.dark-white-mode-button {
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: white;
-  position: relative;
-}
-
-.dark-white-mode-button .tooltip {
-  position: absolute;
-  background-color: grey;
-  color: white;
-  padding: 4px 8px 4px 8px;
-  border-radius: 3px;
-  bottom: -30px;
-  opacity: 0;
-  transition: opacity 0.5s;
-  pointer-events: none;
-}
-
-.dark-white-mode-button:hover .tooltip{
- opacity: 1;
-}
-
-.dark-white-mode-button:hover {
-  box-shadow: 2px 2px 5px 5px rgb(230, 217, 217);
-  transition: 0.5s;
-}
-
-.dark-white-mode-button:active {
-  background-color: rgb(250, 229, 229);
-}
-
-.menu-button {
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-right: 20px;
-  background-color: white;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgba(241, 241, 241, 0.507);
-  min-width: 160px;
-  box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  margin-right: 100px;
-}
-
-.dropdown-content a {
-  color: black;  
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block; 
-  width: 250px;
-}
-
-.dropdown-content a:hover {background-color: rgb(221, 221, 221);}
-
-.dropdown:hover .dropdown-content { display: block;}
-
-.dropdown:hover .menu-button {
-  box-shadow: 2px 2px 5px 5px rgb(230, 217, 217);
-  transition: 0.5s;
-}
-
-.home-icon-button{
-  border: none;
-  margin-left: px;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: white;
-  position: relative;
-}
-.home-icon-button .tooltip {
-  position: absolute;
-  background-color: grey;
-  color: white;
-  padding: 4px 8px 4px 8px;
-  border-radius: 3px;
-  bottom: -30px;
-  opacity: 0;
-  transition: opacity 0.5s;
-  pointer-events: none;
-}
-
-.home-icon-button:hover .tooltip{
- opacity: 1;
-}
-.home-icon-button:hover{
-  box-shadow: 2px 2px 5px 5px rgb(230, 217, 217);
-  transition: 0.5s;
-}
-
-.home-icon-button:active {
-  background-color: rgb(209, 184, 184);
-}
-
-
-/************************************* CSS For Background Image and Texts ************************************/
-
-.background{
-  background: linear-gradient(rgba(70, 51, 52, 0.507), rgb(1, 10, 7)),url('images/img1.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100%;
-  left: 0;
-  right: 0;
-}
-
                       /******************** CSS for Website name ***************************/
 
 .website-name{
@@ -245,7 +6,7 @@
   font-size: 30px;
   padding-top: 80px;
   text-align: center; 
-  color: white;
+  color: black;
 }
 
 h1 {
@@ -270,164 +31,404 @@ h1 {
   font-family: 'Lobster Two', cursive;
   font-size: 30px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
           /*****************************  CSS For The Introduction **************************/
 
 .introduction{
-  display: inline-flex;
-  margin-top: 30px;
-  text-align: center;
-  color: rgb(243, 238, 238);
-  font-family: 'Bricolage Grotesque', sans-serif;
-  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.introduction article {
+  color: white;
+  background-color: rgb(216, 166, 23);
+  font-weight: 500;
+  padding: 15px;
+  max-width: 350px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin: 30px 5px;
+  box-shadow: 0.1px 0.1px 5px 3px rgb(242, 242, 242);
 }
 
 
-/************************************** CSS for Courses ****************************************/
+/************************************** CSS for  introduction to programming****************************************/
 
-.courses{
- 
-/*  display: flex; */
+.courses-container {
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  border-style: solid;
+  flex-wrap: wrap;
+}
+
+.introductiobtoprogramming {
+  margin: 20px 10;
+  padding: 1px 10px 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 290px;
+  box-shadow: 0.1px 0.1px 5px 3px rgb(242, 242, 242);
+}
+
+.introductiobtoprogramming div img {
+  text-align: center;
+  width: 150px;
+}
+
+.introductiobtoprogramming .topic {
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.introductiobtoprogramming .prephase {
+  font-size: 1rem;
+  color: grey;
+  text-align: center;
+
+}
+
+.introductiobtoprogramming button {
+  font-weight: 900;
+  padding: 5px 10px;
   border-radius: 5px;
-  background-color: rgba(173, 216, 230, 0.226);
-  border-width: 0.1px;
-  margin: 0px 40px 200px 40px;
-  padding: 40px 0px 40px 0px;
-  border-color: antiquewhite;
+  cursor: pointer;
+  background-color: rgb(102, 102, 255);
+  font-size: 1rem;
+  border: none;
+  color: white;
 }
 
-.courses:hover{
-background-color: rgba(3, 3, 58, 0.205);
-transition: 1s;
+.introductiobtoprogramming button:hover {
+  transition: 0.25s;
+  background-color: rgb(128, 128, 255);
 }
 
-.course-logo{
- height: 80px;
-}
- 
-
-h2{
- font-family: 'Lobster Two', cursive;
- font-size: 70px;
- text-align: center;
+.introductiobtoprogramming button:active{
+  color: rgb(102, 102, 255);
+  background-color: white;
+  border: 1px solid rgb(102, 102, 255);
 }
 
-.a-course{
- font-family: 'Bricolage Grotesque', sans-serif;
- font-size: 15px;
- text-decoration: none;
- font-weight: bolder;
+.introductiobtoprogramming button i {
+  font-size: 0.7rem;
 }
 
 
-.first-courses{
-align-self: center;
+/***************************************** CCS for html and css **********************************/
+
+
+.html-css {
+  margin: 20px 10;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 270px;
+  box-shadow: 0.1px 0.1px 5px 3px rgb(242, 242, 242);
 }
 
-/***************************************** CCS for Introduction To Programming **********************************/
-
-.intro-to-programming-button{
- width: 400px;
- height: 200px;
- padding: 5px 0px 5px 0px;
- margin: 30px;
- cursor: pointer;
- border-width: 0.5px;
- border-radius: 5px;
- background-color: white;
- border-style: solid;
- border-color: grey;
+.html-css div img {
+  text-align: center;
+  width: 130px;
 }
 
-.intro-to-programming-button:hover{
- box-shadow: 1px 1px 3px 3px lightgrey;
- transition: 0.5s;
+.html-css .topic {
+  margin-top: 32px;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 0.8rem;
 }
 
-/***************************************** CCS for Programming With C++ **********************************/
+.html-css .prephase {
+  font-size: 1rem;
+  color: grey;
+  text-align: center;
 
-.cplusplus-button{
-  width: 400px;
- height: 200px;
- padding: 5px 0px 5px 0px;
- margin:  30px;
- cursor: pointer;
- border-width: 0.5px;
- border-radius: 5px;
- background-color: white;
- border-style: solid;
- border-color: blue;
 }
 
-.cplusplus-button:hover{
- box-shadow: 1px 1px 3px 3px lightblue;
- transition: 0.5s;
+.html-css button {
+  font-weight: 900;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(153, 51, 0);
+  font-size: 1rem;
+  border: none;
+  color: white;
 }
 
-/***************************************** CCS for Programming With Java **********************************/
-
-.java-button{
-  width: 400px;
- height: 200px;
- padding: 5px 0px 5px 0px;
- margin:  30px;
- cursor: pointer;
- border-width: 0.5px;
- border-radius: 5px;
- background-color: white;
- border-style: solid;
- border-color: red;
+.html-css button:hover {
+  transition: 0.25s;
+  background-color: rgb(179, 60, 0);
 }
 
-.java-button:hover{
- box-shadow: 1px 1px 3px 3px rgb(241, 112, 112);
- transition: 0.5s;
+.html-css button:active{
+  color: rgb(153, 51, 0);
+  background-color: white;
+  border: 1px solid rgb(153, 51, 0);
+}
+
+.html-css i {
+  font-size: 0.7rem;
 }
 
 
-/***************************************** CCS for Programming With Python **********************************/
 
-.python-button{
-  width: 400px;
-  height: 200px;
- padding: 5px 0px 5px 0px;
- margin:  30px;
- cursor: pointer;
- border-width: 0.5px;
- border-radius: 5px;
- background-color: white;
- border-style: solid;
- border-color: rgb(240, 240, 50);
+/***************************************** CCS for javascript **********************************/
+
+.javascript {
+  margin: 20px 10;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 270px;
+  box-shadow: 0.1px 0.1px 5px 3px rgb(242, 242, 242);
 }
 
-.python-button:hover{
- box-shadow: 1px 1px 3px 3px rgb(241, 241, 136);
- transition: 0.5s;
+.javascript div img {
+  text-align: center;
+  width: 100px;
 }
+
+.javascript .topic {
+  margin-top: 32px;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.javascript .prephase {
+  font-size: 1rem;
+  color: grey;
+  text-align: center;
+
+}
+
+.javascript button {
+  font-weight: 900;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(204, 204, 0);
+  font-size: 1rem;
+  border: none;
+  color: white;
+}
+
+.javascript button:hover {
+  transition: 0.25s;
+  background-color: rgb(230, 230, 0);
+}
+
+.javascript button:active{
+  color: rgb(204, 204, 0);
+  background-color: white;
+  border: 1px solid rgb(204, 204, 0);
+}
+
+.javascript i {
+  font-size: 0.7rem;
+}
+
+
+
+/***************************************** CCS for python **********************************/
+
+.python {
+  margin: 20px 10;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 270px;
+  box-shadow: 0.1px 0.1px 5px 3px rgb(242, 242, 242);
+}
+
+.python div img {
+  text-align: center;
+  width: 100px;
+}
+
+.python .topic {
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.python .prephase {
+  margin-top: 50px;
+  font-size: 1rem;
+  color: grey;
+  text-align: center;
+
+}
+
+.python button {
+  margin-top: 10px;
+  font-weight: 900;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(26, 26, 255);
+  font-size: 1rem;
+  border: none;
+  color: white;
+}
+
+.python button:hover {
+  transition: 0.25s;
+  background-color: rgb(51, 51, 255);
+}
+
+.python button:active{
+  color: rgb(26, 26, 255);
+  background-color: white;
+  border: 1px solid rgb(26, 26, 255);
+}
+
+.python i {
+  font-size: 0.7rem;
+}
+
+
+/***************************************** CCS for java **********************************/
+
+.java {
+  margin: 20px 10;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 270px;
+  box-shadow: 0.1px 0.1px 5px 3px rgb(242, 242, 242);
+}
+
+.java div img {
+  text-align: center;
+  width: 100px;
+}
+
+.python .topic {
+  margin-top: 32px;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.java .prephase {
+  margin-top: 50px;
+  font-size: 1rem;
+  color: grey;
+  text-align: center;
+
+}
+
+.java button {
+  margin-top: 10px;
+  font-weight: 900;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(255, 26, 26);
+  font-size: 1rem;
+  border: none;
+  color: white;
+}
+
+.java button:hover {
+  transition: 0.25s;
+  background-color: rgb(255, 51, 51);
+}
+
+.java button:active{
+  color: rgb(255, 26, 26);
+  background-color: white;
+  border: 1px solid rgb(255, 26, 26);
+}
+
+.java i {
+  font-size: 0.7rem;
+}
+
 
 /******************************************* CSS for DataBase and SQL *******************************************/
 
-.database-button{
-  width: 400px;
-  height: 200px;
- padding: 5px 0px 5px 0px;
- margin: 30px;
- cursor: pointer;
- border-width: 0.5px;
- border-radius: 5px;
- background-color: white;
- border-style: solid;
- border-color: black;
+.database {
+  margin: 20px 10;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 270px;
+  box-shadow: 0.1px 0.1px 5px 3px rgb(242, 242, 242);
 }
 
-.database-button:hover{
- box-shadow: 1px 1px 3px 3px rgb(63, 63, 61);
- transition: 0.5s;
+.database div img {
+  text-align: center;
+  width: 50px;
 }
+
+.database .topic {
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.database .prephase {
+  margin-top: 50px;
+  font-size: 1rem;
+  color: grey;
+  text-align: center;
+
+}
+
+.database button {
+  margin-top: 10;
+  font-weight: 900;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  font-size: 1rem;
+  border: none;
+  color: white;
+}
+
+.database button:hover {
+  transition: 0.25s;
+  background-color: rgb(26, 26, 26);
+}
+
+.database button:active{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.database i {
+  font-size: 0.7rem;
+}
+
 
 /***************************************** CCS for HTML and CSS**********************************/
 
