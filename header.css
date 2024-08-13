@@ -13,6 +13,27 @@ header{
     box-shadow: 1px 1px 5px 1px lightgray;
 }
 
+.scroll-progress {
+    margin-top: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background-color: blue;
+    animation: scroll-progress linear;
+    animation-timeline: scroll();
+}
+
+@keyframes scroll-progress {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
 .website-logo-container{
     width: 100px;
     margin-left: 20px;
@@ -43,7 +64,7 @@ header nav ul li:last-child{
 header nav ul li a {
     text-decoration: none;
     text-transform: capitalize;
-    color: d8a617;
+    color: blue;
     font-weight: 900;
     font-size: 1rem;
 }
@@ -51,7 +72,7 @@ header nav ul li a {
 .menu{
     display: none;
     cursor: pointer;
-    color: d8a617;
+    color: blue;
     font-size: 1.6rem;
     display: none;
     margin-right: -100px;
@@ -87,5 +108,9 @@ header nav ul li a {
     .menu{
         display: block;
         margin-right: 30px;
+    }
+
+    .scroll-progress {
+        margin-top: 60px;
     }
 }
