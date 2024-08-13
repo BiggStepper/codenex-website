@@ -57,6 +57,10 @@ header nav ul li {
     list-style-type: none;
 }
 
+header nav ul li:hover {
+    text-decoration: underline 2px blue;
+}
+
 header nav ul li:last-child{
     margin-right: 40px;
 }
@@ -67,6 +71,10 @@ header nav ul li a {
     color: blue;
     font-weight: 900;
     font-size: 1rem;
+}
+
+header nav ul li a:active {
+    color: gray;
 }
 
 .menu{
