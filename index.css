@@ -1,16 +1,21 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
                       /******************** CSS for Website name ***************************/
 
 .website-name{
-  font-family: 'Tilt Prism', cursive;
+  font-family: "Bungee Tint", sans-serif;
   font-size: 90px;
   padding-top: 80px;
   text-align: center; 
-  color: black;
+  /* color: ; */
 }
 
 .website-name h1 {
-  /* background-image: linear-gradient(90deg, yellow , black); */
+  color: black;
   display: block;
   font-size: 3rem;
   margin-block-start: 0.67em;
@@ -28,10 +33,10 @@
 
 
 .motto{
-  font-family: 'Lobster Two', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 30px;
   text-align: center;
-  color: black;
+  color: blue;
 }
 
           /*****************************  CSS For The Introduction **************************/
@@ -40,6 +45,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 100px;
   
 }
 
@@ -47,14 +53,38 @@
 .introduction article {
   text-align: center;
   color: white;
-  background: linear-gradient(160deg, blue, rgb(0, 0, 77));
+  background: rgb(51, 51, 255);
   font-weight: 500;
   padding: 15px;
   max-width: 330px;
   border-radius: 10px;
   font-size: 1.2rem;
   margin: 30px 5px;
-  box-shadow: 0.1px 0.1px 5px 3px rgb(242, 242, 242);
+  /* box-shadow: 0.1px 0.1px 5px 3px rgb(242, 242, 242); */
+}
+
+
+.Courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
+.Courses h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 3rem;
+  text-shadow: 1px 4px 1px blue;
+}
+
+@media screen and (max-width: 600px) {
+  .Courses h2 {
+    font-size: 2rem;
+  }
+}
+
+.courses-container {
+  margin-bottom: 150px;
 }
 
 
@@ -77,6 +107,7 @@
   width: 300px;
   height: 290px;
   box-shadow: 0.1px 0.1px 5px 3px rgb(242, 242, 242);
+  background: white;
 }
 
 .introductiobtoprogramming div img {
@@ -137,6 +168,7 @@
   width: 300px;
   height: 270px;
   box-shadow: 0.1px 0.1px 5px 3px rgb(242, 242, 242);
+  background: white;
 }
 
 .html-css div img {
@@ -189,6 +221,7 @@
 /***************************************** CCS for javascript **********************************/
 
 .javascript {
+  background: white;
   margin: 20px 10;
   padding: 20px 10px 20px 10px;
   border-radius: 10px;
@@ -250,6 +283,7 @@
 /***************************************** CCS for python **********************************/
 
 .python {
+  background: white;
   margin: 20px 10;
   padding: 20px 10px 20px 10px;
   border-radius: 10px;
@@ -312,6 +346,7 @@
 /***************************************** CCS for java **********************************/
 
 .java {
+  background: white;
   margin: 20px 10;
   padding: 20px 10px 20px 10px;
   border-radius: 10px;
@@ -374,6 +409,7 @@
 /******************************************* CSS for DataBase and SQL *******************************************/
 
 .database {
+  background: white;
   margin: 20px 10;
   padding: 20px 10px 20px 10px;
   border-radius: 10px;
@@ -470,4 +506,20 @@
 .javascript-button:hover{
  box-shadow: 1px 1px 3px 3px rgb(241, 212, 46);
  transition: 0.5s;
+}
+
+.index-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px 0 0 0;
+  width: 100%;
+  margin-bottom: -100px;
+  height: 200px;
+  background: blue;
+}
+
+.index-footer p {
+  color: white;
 }
