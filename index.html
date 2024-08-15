@@ -10,6 +10,8 @@
                                 <!-- from css animation -->
     <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
                        <!--------------------- CSS Files ------------------------------>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="general.css">
@@ -90,10 +92,10 @@
       </nav>
     </header>
     <div class="scroll-progress"></div>
-    <main>
+    <main id="main">
       <div>
         <div class="website-name">
-          <h1>CodeNex</h1> 
+          <h1 class="cssanimation leFadeInLeft sequence">CodeNex</h1> 
         </div>
         <div>
           <h2 class="motto">"Your Programming Support And Resource Web Service"</h2>
@@ -114,7 +116,7 @@
         <h2>Available Courses</h2>
       </div>
       <section class="courses-container">
-        <article class="introductiobtoprogramming">
+        <article class="introductiobtoprogramming" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
           <div>
             <img src="logos/introduction-to-programming-logo.png" alt="introduction to programming logo">
           </div>
@@ -128,7 +130,7 @@
             </i></button>
           </a>
         </article>
-        <article class="html-css">
+        <article class="html-css" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
           <div>
             <img src="logos/html-css-logo.png" alt="html and css logo">
           </div>
@@ -142,7 +144,7 @@
             </i></button>
           </a>
         </article>
-        <article class="javascript">
+        <article class="javascript" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
           <div>
             <img src="logos/javascript-logo.png" alt="javascript logo">
           </div>
@@ -156,7 +158,7 @@
             </i></button>
           </a>
         </article>
-        <article class="python">
+        <article class="python" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
           <div>
             <img src="logos/python-logo.png" alt="python logo">
           </div>
@@ -170,7 +172,7 @@
             </i></button>
           </a>
         </article>
-        <article class="java">
+        <article class="java" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
           <div>
             <img src="logos/java-logo.png" alt="java logo">
           </div>
@@ -184,7 +186,7 @@
             </i></button>
           </a>
         </article>
-        <article class="database">
+        <article class="database" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
           <div>
             <img src="logos/sql-logo-2.png" alt="sql logo">
           </div>
@@ -207,6 +209,14 @@
       &#169; Copyright 2023 || All Rights Reserved
       </p> -->
     </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
   <script src="script.js"></script>
   </body>
 </html>
